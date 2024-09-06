@@ -45,3 +45,35 @@ iframe#tela {
     height: 470px;
     width: 267px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img { 
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(-3px, -3px);
+    -webkit-transform: translate(-3px, -3px);
+    -moz-transform: translate(-3px, -3px);
+    -ms-transform: translate(-3px, -3px);
+    -o-transform: translate(-3px, -3px);
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+}
